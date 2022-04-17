@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: my_space1.pic.mybluemix.net
+      - route: my_space1.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: my_space1.us-south.cf.appdomain.cloud/static
+      - route: my_space1.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack

@@ -1,11 +1,11 @@
   applications:
-  - name: onlinecourse
+  - name: onlinecoursebaskaran
     routes:
-      - route: my_space1.mybluemix.net
+      - route: onlinecoursebaskaran.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: onlinecourse-nginx
+  - name: onlinecoursebaskaran-nginx
     routes:
-      - route: my_space1.mybluemix.net/static
+      - route: onlinecoursebaskaran.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
